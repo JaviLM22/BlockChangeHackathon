@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './Navbar.css';
+import './NavBar.css';
 import { useGetConnectedAddress } from '../../hooks/useGetConnectedAddress'; 
 import { getNFTs } from '../../utils/getNFTs';
 import { saveObjectAsJson } from '../../utils/getFile';
